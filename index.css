@@ -1,0 +1,11 @@
+/* Variables */
+:root{
+    --Primary-Color: #10b981;
+    --DarkMode-Background-Color: #1f2937;
+    --LightMode-Background-Color: #1f2937;
+    --DarkMode-PasswordBoard-Color: #273549;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
