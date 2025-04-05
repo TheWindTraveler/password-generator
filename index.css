@@ -2,10 +2,23 @@
 :root{
     --Primary-Color: #10b981;
     --DarkMode-Background-Color: #1f2937;
-    --LightMode-Background-Color: #1f2937;
+    --LightMode-Background-Color: #ecfdf5;
     --DarkMode-PasswordBoard-Color: #273549;
 }
 body{
     margin: 0;
     padding: 0;
+    background: var(--DarkMode-Background-Color);
+    color: white;
+    max-width: 1200px;
+    max-height: 1500px;
+}
+
+.container{
+    width: 550px;
+    height: 550px;
+}
+
+.container h1{
+    width: 190px;
 }
