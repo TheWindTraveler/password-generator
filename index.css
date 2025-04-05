@@ -5,20 +5,73 @@
     --LightMode-Background-Color: #ecfdf5;
     --DarkMode-PasswordBoard-Color: #273549;
 }
+
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    background: var(--DarkMode-Background-Color);
+    background: black;
     color: white;
     max-width: 1200px;
     max-height: 1500px;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .container{
     width: 550px;
+    background-color: var(--DarkMode-Background-Color);
     height: 550px;
+    margin: 50px;
+}
+
+.section-container{
+    padding: 55px;
+}
+
+.section-container p{
+    font-size: 20px;
 }
 
 .container h1{
-    width: 190px;
+    width: 354px;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.btn{
+    padding: 15px;
+    width: 191px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: var(--Primary-Color);
+    color: white;
+    margin: 40px 40px 0 0;
+    font-weight: 500;
+}
+
+.random-password{
+    color: var(--Primary-Color);
+}
+
+.separator{
+    border: 1px solid var(--DarkMode-PasswordBoard-Color);
+    width: 446px;
+    margin: 20px 0 0 0;
+}
+
+.generate-password-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.generate-password-fields{
+    margin-top: 39px;
+    background-color: var(--DarkMode-PasswordBoard-Color);
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
 }
