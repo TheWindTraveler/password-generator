@@ -18,8 +18,14 @@
         <div class="separator"></div>
         <!-- Generate Password Field -->
         <div class="generate-password-container">
-            <div class="generate-password-fields" id="first-password-box"></div>
-            <div class="generate-password-fields" id="second-password-box"></div>
+            <div class="password-block">
+                <div class="generate-password-fields" id="first-password-box"></div>
+                <button onclick="copyToClipBoard('first-password-box')">Copy</button>
+            </div>
+            <div class="password-block">
+                <div class="generate-password-fields" id="second-password-box"></div>
+                <button onclick="copyToClipBoard('second-password-box')">Copy</button>
+            </div>
         </div>
         </div>
     </section>
