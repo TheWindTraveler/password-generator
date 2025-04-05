@@ -4,6 +4,8 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
     "^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?",
 "/"];
 
+let firstPasswordBox = document.getElementById("first-password-box")
+let secondPasswordBox = document.getElementById("second-password-box")
 
 
-
+let passwordLength = 15;
